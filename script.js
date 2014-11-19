@@ -29,7 +29,6 @@
         if ( e !== undefined ) { e.preventDefault(); }
         var listCont = document.getElementById( 'listCont' ),
             title = document.getElementById( 'title' ),
-            content = document.getElementById( 'content' ),
             input = document.getElementsByTagName( 'input' ),
             textarea = document.getElementById( 'content' );
 
@@ -37,7 +36,7 @@
         {
             // ideally we would save this to LocalStorage or the DB via AJAX
 
-            listCont.insertAdjacentHTML( 'afterbegin', tmpl( title.value, content.value ) );
+            listCont.insertAdjacentHTML( 'afterbegin', tmpl( title.value, textarea.value ) );
             buildEvent( deleteTaskBtn[0], 'click', deleteTask );
             input[0].value = '';
             textarea.value = '';
