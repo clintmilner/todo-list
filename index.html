@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TODO List by Clint Milner - (clintmilner.com)</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div id="wrapper">
+    <h1>The Todo List</h1>
+
+    <div id="todoList">
+        <section id="formCont">
+            <form id="addATask" class="wrapper">
+                <div>
+                    <label for="title">Title *</label>
+                    <input tabindex="1" name="title" id="title" type="text" />
+                </div>
+                <div>
+                    <label for="content">Content</label>
+                    <textarea tabindex="2" name="content" id="content"></textarea>
+                </div>
+                <div>
+                    <a id="submit">Add Task</a>
+                </div>
+            </form>
+        </section>
+        <section id="listCont">
+            <div class="task wrapper">
+                <h2>Hire Clint Milner</h2>
+                <p>Why haven't we hired this guy yet? Have you seen his website? www.clintmilner.com</p>
+                <a class="delete">Delete</a>
+            </div>
+            <div class="task wrapper">
+                <h2>Here's a Sample Task</h2>
+                <p>Add your next task above and it will be saved to this list. Use the delete button to delete completed tasks.</p>
+                <a class="delete">Delete</a>
+            </div>
+        </section>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
