@@ -1,0 +1,86 @@
+* { margin: 0; padding-bottom: 0; box-sizing: border-box; }
+a { cursor: pointer; }
+.wrapper { margin: 0 auto; width: 95%; }
+
+#wrapper {
+    font: 16px/1.4 sans-serif;
+    background: #fff;
+    color: #5b5b5b;
+    text-align: center;
+}
+
+#todoList {
+    background: #dfdfdf;
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+section {
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+    text-align: left;
+    padding: 20px;
+    overflow: hidden;
+}
+#listCont { border-top: none; }
+
+#addATask > div {
+    margin: 1em auto;
+    overflow: hidden;
+}
+label {
+    width: 15%;
+    float: left;
+    color: #9d9d9d;
+}
+input, textarea {
+    width: 80%;
+    float: right;
+    height: 3em;
+}
+textarea {
+    height: 7em;
+    font: 12px/1.2 sans-serif;
+    padding: 5px;
+}
+
+#submit {
+    float: right;
+    display: inline-block;
+    padding: .7em 2.4em;
+    background: #3183f3;
+    border: 1px solid #1c70e4;
+    color: #fff;
+    margin: .5em auto auto;
+    line-height: .8em;
+    text-transform: uppercase;
+    font-size: .8em;
+    cursor: pointer;
+}
+
+.task {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin-top: 1em;
+}
+.task h2 {
+    font-weight: normal;
+    padding: .8em .8em 0 .8em;
+}
+.task p {
+    padding: .8em 1.1em;
+    font-weight: lighter;
+    color: #9d9d9d;
+}
+.delete {
+    text-align: right;
+    border-top: 1px solid #d7d7d7;
+    display: block;
+    text-transform: uppercase;
+    color: #f55858;
+    width: 100%;
+    padding: .5em 1em .5em 0;
+    line-height: 1em;
+}
